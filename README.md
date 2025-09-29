@@ -2,7 +2,6 @@
 Universidad Adventista de Bolivia
 Carrera: Ingeniería de Sistemas
 Materia: Taller de Programación
-
 Datos del Estudiante
 Nombre: Alex ROsales Quispe
 Año: 2025
