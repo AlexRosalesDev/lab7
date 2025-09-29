@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Login UAB</title>
+</head>
+<body>
+    <div class="background-container">
+        <div class="login-wrapper">
+            <div class="logo-container">
+                <img src="UAB.png" alt="UAB Logo" class="logo"/>
+            </div>
+            
+            <div class="login-container">
+                <h1>Iniciar Sesión</h1>
+                <form>
+                    <div class="input-group">
+                        <i class="fas fa-user input-icon"></i>
+                        <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <i class="fas fa-lock input-icon"></i>
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                    </div>
+                    
+                    <div class="options">
+                        <div class="remember">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Recordarme</label>
+                        </div>
+                        <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    
+                    <button type="submit">Entrar</button>
+                
+                <p class="register">¿No tienes cuenta? <a href="#">Regístrate</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

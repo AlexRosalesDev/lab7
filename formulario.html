@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ejemplo con HTML5." />
+    <meta name="keywords" content="HTML5, CSS3, Web" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styleformulario.css">
+<body>
+    <img src="UAB.png" alt="UAB Logo"/>
+
+    <h1>Formulario de Ejemplo</h1>
+
+    <form action="#" method="post">
+        <p>Nombre: <input type="text" name="nombre" ></p>
+        <p>Apellido: <input type="text" name="apellido" ></p>
+        <p>Contraseña: <input type="password" name="clave"></p>
+        <p>Correo electrónico: <input type="email" name="correo" ></p>
+        <p>Edad: <input type="number" name="edad"></p>
+        <p>Fecha de nacimiento: <input type="date" name="nacimiento"></p>
+        <p>Hora de cita: <input type="time" name="hora"></p>
+        <p>Color favorito: <input type="color" name="color"></p>
+        <p>Sitio web: <input type="url" name="web"></p>
+        <p>Teléfono: <input type="tel" name="teléfono"></p>
+        <p>Archivo: <input type="file" name="archivo"></p>
+
+    <p>Género:</p>
+    <p><input type="radio" name="genero" value="masculino"> Masculinos</p>
+    <p><input type="radio" name="genero" value="femenino"> Femenino</p>
+    <p><input type="radio" name="genero" value="otro"> Otros</p>
+
+    <p>Intereses:</p>
+    <p><input type="checkbox" name="musica"> Música</p>
+    <p><input type="checkbox" name="deporte"> Deportes</p>
+    <p><input type="checkbox" name="lectura"> Lecturas</p>
+    <p><input type="checkbox" name="otro"> Otros</p>
+
+    <p>País:
+        <select name="país">
+        <option value="bolivia">Bolivia</option>
+        <option value="argentina">Argentina</option>
+        <option value="chile">Chile</option>
+        <option value="Alemania">Alemania</option>
+    </select>
+    </p>
+
+    <p>Comentarios:</p>
+    <p><textarea name="comentarios" rows="4" cols="48"></textarea></p>
+
+    <p><input type="reset" value="Borrar"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</head>
