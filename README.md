@@ -14,12 +14,14 @@ tabla.html Tabla de estudiantes.
 login.html Ejemplo de login estilizado.
 card.html Tarjeta de producto destacada.
 Archivos CSS para los diferentes módulos.
+
 ### Objetivos del Laboratorio
 Practicar la estructura básica de un documento HTML5.
 Aplicar estilos CSS personalizados.
 Utilizar etiquetas semánticas correctas.
 Integrar imágenes, tablas, formularios y enlaces.
 Crear un proyecto organizado y navegable.
+
 ### Pasos
 Creación del repositorio en GitHub.
 Desarrollo de los archivos HTML.
