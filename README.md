@@ -26,3 +26,5 @@ Crear un proyecto organizado y navegable.
 Creación del repositorio en GitHub.
 Desarrollo de los archivos HTML.
 Creación de hojas de estilo CSS.
+
+### [Para revisión]
